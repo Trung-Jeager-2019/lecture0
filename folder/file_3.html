@@ -8,6 +8,10 @@
 		function count (){
 			counter++;
 			document.querySelector('#counter').innerHTML = counter;
+
+			if (counter % 17 === 0){
+				alert('Mày đếm tới số ${counter} là được rồi!');
+			}
 		}
 	</script>
 	<title>test web</title>
